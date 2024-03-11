@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+  }
+
+  /* Variaveis Gerais */
+  :root{
+    --cor-principal:#3C184E;
+    --fonte-principal: "Madimi One", sans-serif;
+    --cor-secundaria:#ffff;
+  }
+  .banner{
+     width: 100vw;
+     padding: 120px 80px;
+     background-image: url(/img/gerais/banner-topo.jpg) ;
+     background-position: center;
+     background-size: cover;
+  }
+  .logo-da-loja{
+    max-width: 280px;
+    color:var(--cor-principal);
+    
+  }  
+  .logo-da-loja .nome-da-empressa {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+  }
+  .logo-da-loja .slogan {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 32px;
+  }
+.logo-da-loja img {
+    width:40px ;
+    margin-right: 5px;
+}
+.contato-topo{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding:40px;
+    margin: 70px auto 0 auto;
+    background: #ffffff80;
+    box-shadow: 0 8px 32px #1f26875e;
+    
+}
+.contato-topo h1{
+    font-size: 60px;
+    color: var(--cor-principal);
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+.contato-topo .botao-zap {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    color:var(--cor-secundaria);
+    font-size: 20px;
+    text-align: center;
+    background: var(--cor-principal);
+}
+.contato-topo img {
+    width: 25px;
+    padding-top:5px;
+    padding-left: 5px;
+}
+.servicos{
+    width: 100vw;
+    padding: 120px 80px;
+}
+.servicos h3{
+    font-size: 36px;
+    color: var(--cor-principal);
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.servicos-lista{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: var(--cor-principal);
+}
+.servicos-lista ul{
+    list-style-type: square;
+}
+.servicos-lista ul li{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.servicos-lista ul li span{
+    font-weight: 700;
+    font-style: italic;
+}
+.galeria{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.galeria img{
+    border-radius: 10px;
+    box-shadow: 3px 6px 10px 6px #0000005c ;
+}
+.faixa{
+    padding: 120px 80px;
+    background:var(--cor-principal);
+    text-align: center;
+}
+.faixa p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+.faixa p span {
+    font-weight: 700;
+    font-style: italic;
+}
+.faixa a {
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+.faixa a img{
+    width: 50px;
+    height: 50px;
+}
+.marcas{
+    width: 100vw;
+    padding: 120px 80px;
+}
+.marcas h3{
+    font-size: 36px;
+    color: var(--cor-principal);
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.marcas-parceria{
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+.marcas-parceria img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px 0 15px;
+}
+.local{
+    width: 100vw;
+    padding: 120px 80px;
+}
+.local h3 {
+    font-size: 36px;
+    color:var(--cor-principal);
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.local p {
+    font-size: 20px;
+    color: var(--cor-principal);
+    text-align: center;
+    margin: 0 0 45px 0;
+
+}
+.local iframe{
+    width: 800px;
+    height: 450px;
+    margin-left: 480px;
+}
+.rodape{
+    width: 100vw;
+    padding: 10px 0 10px 0;
+    background-color: var(--cor-principal);
+}
+.rodape p {
+    color: var(--cor-secundaria);
+    font-size: 25px;
+    text-align: center;
+}
